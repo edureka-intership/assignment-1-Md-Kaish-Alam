@@ -295,25 +295,30 @@ hr {
   justify-content: center;
 }
 
-.row-content .sliding .sliding-no {
+.row-content .sliding .sliding-no a {
   background-color: #fff;
   font-family: Poppins;
   color: #8c96ab;
   border: 1px solid #8c96ab;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  /* width: 36px;
+  height: 36px; */
   margin: 0px 5px;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 7px;
 }
+.row-content .sliding .sliding-no a{
+  text-decoration: none;
+  color: #8c96ab;
+}
+
 
 #arrow-right {
   opacity: 0.4;
 }
 
-.row-content .sliding-no:hover {
-  color: #fff;
+.row-content .sliding-no a:hover {
+  color: #fff !important;
   background-color: #8c96ab;
   cursor: pointer;
 }
